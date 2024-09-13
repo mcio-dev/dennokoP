@@ -9,7 +9,7 @@
 body {
 	text-align : left ;
 	margin : 0px;
-	font-family :"メイリオ", Arial,Verdana, "ヒラギノ角ゴ Pro W3" ;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
 	color : #3F3F3F;
 	line-height : 1.4 ;
 	background-color : #AAAAAA;
@@ -18,7 +18,7 @@ embed[src*="nicovideo.jp"]{
 width: 500px;
 height: 325px;
 }
-iframe {
+iframe, .video-cover, ul {
 	padding-left : 3%;
 	padding-right : 3%;
 }
@@ -65,6 +65,7 @@ div#copyright {
 	#site-box { 
 		width : 750px ;
 		background-color : #F3F3F3;
+        margin: 0 auto;
 	}
 	#header_img {
 		width : 750px;
