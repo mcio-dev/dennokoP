@@ -70,6 +70,9 @@ div#copyright {
 	#header_img {
 		width : 750px;
 	}
+	.video-cover img {
+		width: 560px;
+	}
 }
 
 @media all and (min-width:481px) and (max-width: 768px) {
@@ -83,7 +86,10 @@ div#copyright {
 		background-color : #F3F3F3;
 	}
 	#header_img {
-		width : 480px;
+		width : 100%;
+	}
+	.video-cover img {
+		width: 90%;
 	}
 	#header {
 		font-size : 150%;
