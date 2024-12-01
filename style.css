@@ -18,6 +18,40 @@ embed[src*="nicovideo.jp"]{
 width: 500px;
 height: 325px;
 }
+.page-content > * {
+	margin-top: 20px;
+}
+.page-content > h2 {
+	margin: 64px auto 24px;
+    padding: 32px;
+    font-size: 24px;
+    background-color: #d7dce2;
+}
+.quote {
+	background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 15px auto;
+    padding: 0.5em 25px;
+}
+blockquote {
+	position: relative;
+    padding-left: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #79849a;
+}
+blockquote::before {
+	content: "";
+    position: absolute;
+    top: 0.75em;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+    width: 32px;
+    height: 1px;
+    background-color: #79849a;
+}
 iframe, .video-cover, ul {
 	padding-left : 3%;
 	padding-right : 3%;
@@ -28,6 +62,10 @@ iframe, .video-cover, ul {
 #header {
 	font-size : 300%;
 	margin-bottom : 1%
+}
+#page-header {
+	font-size: 200%;
+	margin-bottom: 1%;
 }
 div.category_title {
 	font-size : 250%;
