@@ -14,6 +14,9 @@ body {
 	line-height : 1.4 ;
 	background-color : #AAAAAA;
 }
+p.gray{
+	color: #A8A8A8;
+}
 embed[src*="nicovideo.jp"]{
 width: 500px;
 height: 325px;
